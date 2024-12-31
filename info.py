@@ -10,14 +10,14 @@ from Script import script
 id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
-SESSION = environ.get('SESSION', 'TechVJBot')
+SESSION = environ.get('SESSION', 'Tatmoviebot')
 API_ID = int(environ.get('API_ID', '28810170'))
 API_HASH = environ.get('API_HASH', 'd8fa6697eb16406d15015179aa641fee')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://graph.org/file/df571e1f7c52c74af95a5-101c3fe0e3a9ffda2d.jpg https://graph.org/file/1fd5dae510ddf460bff47-030a6debb11c84df48.jpg https://graph.org/file/aa12e372dcb7b010122eb-7551c6af3ffa189b88.jpg https://graph.org/file/fa1c6c32d570c74fd4a77-0c26b34cb7ac399222.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/13bbf4a411424eb1f8ce6-e5c60121916780f3d1.jpg https://graph.org/file/3d2bfc69d2a1e26f9ef5f-6eb2318e11122dc85e.jpg https://graph.org/file/c2837bb5a316d8b0be597-6e0ab7d18c7f093e95.jpg https://graph.org/file/44aa275a74b66f49dd89a-0e6f68f4c4c17324b9.jpg https://graph.org/file/2d8f962f58dc8bd011d1c-e8894bdb097425bfd7.jpg https://graph.org/file/464ea06eedd5ae57c8a15-b206e584827283cade.jpg https://graph.org/file/5b72670588ec3033f81b4-782920b916401b0c32.jpg')).split()
 
 
 # Admins & Users
@@ -59,9 +59,9 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://marktatebusinessmail:8vG90srWx54T2bXk@cluster0.nn6od.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
-DATABASE_NAME = environ.get('DATABASE_NAME', "marktatebusinessmail")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'tatemovie')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://msnojdas216:VVHRSfJsgEqej4du@cluster0.js8i5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram Files')
 
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False)) # Set True or False
 
@@ -88,9 +88,9 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/tatemovie')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Tate_movie_group')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+uJy29Y7MJtFhYTE1')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Tate_movie_group') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'supptrt_group') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Mr_mark_tate')
 
 # True Or False
