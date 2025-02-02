@@ -82,9 +82,9 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟ�
 
 
 # Clone Information : If Clone Mode Is False Then Bot Clone Other Bots.
-CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
-CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', " mongodb+srv://wernertatetg:mXlhCrhJScUl4LW2@cluster0.64ekp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # Necessary If clone mode is true
-PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'milo_movie') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
+CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
+CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "") # Necessary If clone mode is true
+PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 
 # Links
