@@ -2248,7 +2248,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
-        ]]")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
